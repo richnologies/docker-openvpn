@@ -3,7 +3,7 @@
 # Leaner build then Ubuntu
 FROM alpine:3.2
 
-MAINTAINER Kyle Manna <kyle@kylemanna.com>
+MAINTAINER Ricardo Sanchez Gregorio <me@richnologies.io>
 
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories && \
     apk add --update openvpn iptables bash easy-rsa && \
